@@ -1,15 +1,10 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
+    <h1>Todo application</h1>
+    <hr />
+    <router-view />
   </div>
 </template>
-
-<script>
-export default {
-  name: "App",
-  components: {},
-};
-</script>
 
 <style>
 #app {
