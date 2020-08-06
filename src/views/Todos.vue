@@ -37,7 +37,7 @@ export default {
         },
         { id: 3, title: "Buy bear", completed: false },
       ],
-      loading: true,
+      loading: false,
       filter: "all",
     };
   },
@@ -46,7 +46,7 @@ export default {
     AddTodo,
     Loader,
   },
-  mounted() {
+  /*   mounted() {
     fetch("https://jsonplaceholder.typicode.com/todos?_limit=15")
       .then((response) => response.json())
       .then((json) => {
@@ -54,7 +54,7 @@ export default {
           (this.todos = json), (this.loading = false);
         }, 1000);
       });
-  },
+  }, */
   /*   watch: {
     filter(value) {
       console.log(value);
